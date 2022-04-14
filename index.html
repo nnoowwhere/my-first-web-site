@@ -4,20 +4,44 @@
 <title>똥강아지 커뮤니티-welcom</title>
 <meta charset="utf-8">
 <style>
-a {
-  color:black;
-  text-decoration: none;
+body{
+  margin: 0px;
 }
+a{color:black;text-decoration: none;}
 h1{
   font-size:45px;text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding: 20px;
 }
-#active{
-  color: red;
+ol{
+  border-right: 1px solid gray;
+  width: 100px;
+  margin: 0px;
+  padding: 20px;
 }
-.saw{
-  color:gray;
-}
-</style>
+ #grid{
+   display: grid;
+   grid-template-columns: 150px 1fr;
+ }
+  #grid ol{
+    padding-left: 55px;
+  }
+  #article{
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+  @media(max-width:800px){
+    #grid{
+      display: block;
+      }
+     ol{
+    border-right: none;
+       }
+     h1{
+     border-bottom: none;
+       }
+  </style>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYH2HQ96R1"></script>
 <script>
@@ -28,16 +52,19 @@ h1{
 </script>
 </head>
 <body>
-<h1><a href="index.html">똥강아지 community</a></h1>
-<p>안녕하세요! 이곳은 <strong><u>똥강아지</u>  커뮤니티</strong>입니다. 강아지 화장실 문화를 만들어 깨끗한 공원과 도시를 가꾸며, 나아가 비닐 사용을 줄이기 위한 똥강아지 사용자들의 공간이니 마음껏 이용해주세요!</p>
-<img src="dog.jpg"width="350">
-<p><a href=https://www.youtube.com/watch?v=8QdnsbzTU8k target="_blank" title="산책 후 댕댕이 똥은?">우리 댕댕이와 즐거운 산책 후 댕댕이의 똥은 처치 곤란입니다.</a> 공원의 공용 쓰레기통이나 쓰레기봉투에 똥을 처리하는 것은 불법이에요! 혹시 그냥 공원 잔디에 똥을 버려두고 가시지는 않으시겠죠?^^ 그게 아니라면 역시 집으로 똥을 가져갑니다. 개인 쓰레기봉투에 넣어두자니 쓰레기봉투가 꽉 찰 때까지 냄새가 납니다. 밀폐가 잘 된 쓰레기통에 보관을 해도 왠지 찝찝함은 없앨 수 없습니다. 가져온 똥만 변기로 내려보내고 담아온 봉투를 물로 닦고 있자니 정말 귀찮습니다.<br>흑흑 댕댕이와의 산책은 즐겁기만 한데 우리 댕댕이 똥은 어떻게 간단히 처리할 수 없을까요? 이런 고민 끝에 <strong>똥강아지</strong>가 탄생했습니다! 강아지 화장실 문화가 독특하시나요? 놉! 우리 함께 공원에 버려진 똥을 보며 눈살을 찌푸리는 일 대신  DOG티켓을 생활화 해 나가보자구요!!</p>
-</body>
-<Ol>
- <li><a href="1.html"class="saw">Q&A</a></li>
- <li><a href="2.html"class="saw" id="active">사용후기</a></li>
- <li><a href="3.html">불편사항</a></li>
-</Ol>
+<h1><a href="index.html">똥강아지</a></h1>
+<div id="grid">
+   <Ol>
+    <li><a href="1.html"class="saw">회원가입</a></li>
+    <li><a href="2.html"class="saw" id="active">사용후기</a></li>
+    <li><a href="3.html">Q&A</a></li>
+    <li><a href="4.html">불편사항</a></li>
+  </Ol>
+  <div id="article"
+  <p><a href=https://www.youtube.com/watch?v=8QdnsbzTU8k target="_blank" title="산책 후 댕댕이 똥은?"> 안녕하세요! <br>우리 댕댕이와 즐거운 산책 후 댕댕이의 똥은 처치 곤란입니다.</a> 공원의 공용 쓰레기통이나 쓰레기봉투에 똥을 처리하는 것은 불법이에요! 혹시 그냥 공원 잔디에 똥을 버려두고 가시지는 않으시겠죠?^^ 그게 아니라면 역시 집으로 똥을 가져갑니다. 개인 쓰레기봉투에 넣어두자니 쓰레기봉투가 꽉 찰 때까지 냄새가 납니다. 밀폐가 잘 된 쓰레기통에 보관을 해도 왠지 찝찝함은 없앨 수 없습니다. 가져온 똥만 변기로 내려보내고 담아온 봉투를 물로 닦고 있자니 정말 귀찮습니다.<br>흑흑 댕댕이와의 산책은 즐겁기만 한데 우리 댕댕이 똥은 어떻게 간단히 처리할 수 없을까요? 이런 고민 끝에 <strong>똥강아지</strong>가 탄생했습니다! 강아지 화장실 문화가 독특하시나요? 놉! 우리 함께 공원에 버려진 똥을 보며 눈살을 찌푸리는 일 대신  DOG티켓을 생활화 해 나가보자구요!!</p>
+  </body>
+ </div>
+</div>
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/tZooW6PritE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></P>
   <p><div id="disqus_thread"></div>
 <script>
